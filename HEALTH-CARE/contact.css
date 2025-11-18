@@ -1,0 +1,159 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #f4f7fb;
+}
+
+.header {
+    width: 100%;
+    background: white;
+    box-shadow: 0 2px 12px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+.nav-container {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    padding: 15px 0;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-img {
+    width: 45px;
+}
+
+.logo-text {
+    font-size: 38px;
+    font-weight: 900;
+    color: #0a6ebd;
+    font-family: 'Poppins', sans-serif;
+    text-shadow: 2px 3px 0px rgba(0,0,0,0.1);
+}
+
+.navbar a {
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 18px;
+    color: #333;
+    font-weight: 500;
+    transition: 0.3s;
+}
+
+.navbar a:hover {
+    color: #0a6ebd;
+}
+
+.login-btn {
+    background: #0a6ebd;
+    color: white !important;
+    padding: 8px 18px;
+    border-radius: 20px;
+}
+header {
+    text-align: center;
+    padding: 30px 0;
+    background: #0066cc;
+    color: white;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    font-size: 18px;
+    margin-top: 5px;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 10%;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.contact-info {
+    flex: 1;
+    min-width: 300px;
+}
+
+.contact-info h2 {
+    font-size: 28px;
+    color: #0066cc;
+}
+
+.info-box {
+    background: white;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.info-box h3 {
+    margin: 0;
+    color: #003d80;
+}
+
+.contact-form {
+    flex: 1;
+    min-width: 300px;
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+}
+
+.contact-form h2 {
+    color: #0066cc;
+    margin-bottom: 20px;
+}
+
+form label {
+    font-weight: bold;
+    margin-top: 10px;
+    display: block;
+}
+
+form input, form textarea {
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #aaa;
+    font-size: 16px;
+}
+
+textarea {
+    height: 120px;
+}
+
+button {
+    width: 100%;
+    padding: 15px;
+    background: #0066cc;
+    border: none;
+    color: white;
+    font-size: 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background: #004a99;
+}

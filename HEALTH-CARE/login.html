@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Healthify Login</title>
+    <link rel="stylesheet" href="login.css">
+ 
+</head>
+<body>
+    <header class="header">
+    <div class="nav-container">
+        <div class="logo-area">
+            <img src="background-image.png" class="logo-img" alt="Healthify Logo">
+            <h1 class="logo-text">Healthify</h1>
+        </div>
+
+        <nav class="navbar">
+            <a href="sw.html">Home</a>
+            <a href="Services.html">Services</a>
+            <a href="member.html">Membership</a>
+            <a href="CONTACT.html">Contact</a>
+            <a href="login.html" class="login-btn">Login</a>
+        </nav>
+    </div>
+</header>
+    <h1>Log-in </h1>
+    <form>
+        <input type="text" id="login" placeholder="Phone Number or Email Address" required><br>
+        <input type="password" id="password" placeholder="Password" minlength="8" pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*\d).{8,}" required><br>
+        <p id="imp">Password should have an uppercase, a lowercase, and a number (0-9)<br>
+        Minimum 8 characters</p><br>
+
+        <button type="submit" id="btn-login">
+            <p><a href="sw.html" id="l2">Login</a></p>
+        </button>
+
+        <p><a href="login.html" id="p">Forgotten Password?</a></p>
+        <hr>
+        <button type="button" id="new" >Create New Account</button>
+    </form>
+    <hr>
+    <footer class="login-footer">
+     <p>&copy; 2025 YourCompany. All rights reserved.</p>
+        <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">Help</a>
+        </div>
+    </footer>
+
+</body>
+</html>
