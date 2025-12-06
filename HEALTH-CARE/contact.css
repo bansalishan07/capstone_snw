@@ -157,3 +157,35 @@ button {
 button:hover {
     background: #004a99;
 }
+
+
+
+
+
+
+.dark-mode {
+    background-color: #0d1117;
+    color: white;
+}
+
+.dark-mode .service-card {
+    background: #1a1f25;
+    color: white;
+    border-left-color: #4fa3ff;
+}
+
+.dark-mode header,
+.dark-mode footer {
+    background: #1a1f25;
+    color: white;
+}
+
+#darkModeBtn {
+    padding: 8px 14px;
+    background: #0066cc;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 15px;
+}

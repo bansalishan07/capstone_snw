@@ -199,3 +199,110 @@ hr {
         width: 70%;
     }
 }
+
+
+
+#darkModeBtn {
+    padding: 8px 15px;
+    background: #0a6ebd;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#darkModeBtn:hover {
+    background: #065a9c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.dark-mode {
+    background: linear-gradient(135deg, #0d1117, #161b22);
+    color: #ffffff;
+}
+
+.dark-mode .header {
+    background: #161b22;
+    box-shadow: 0 2px 12px rgba(255,255,255,0.05);
+}
+
+.dark-mode .navbar a {
+    color: #d0d0d0;
+}
+
+.dark-mode .navbar a:hover {
+    color: #66a6ff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.dark-mode .logo-text {
+    color: #58a6ff;
+    text-shadow: none;
+}
+
+.dark-mode form {
+    background-color: #1b222c;
+    border-color: #333;
+    color: white;
+}
+
+.dark-mode #login,
+.dark-mode #password {
+    background-color: #0d1117;
+    border-color: #444;
+    color: white;
+}
+
+.dark-mode #login:focus,
+.dark-mode #password:focus {
+    border-color: #66a6ff;
+    box-shadow: 0 0 6px rgba(102, 166, 255, 0.4);
+}
+
+.dark-mode #btn-login {
+    background-color: #2385ff;
+}
+
+.dark-mode #btn-login:hover {
+    background-color: #1a65c7;
+}
+
+.dark-mode #new {
+    background-color: #00a062;
+}
+
+.dark-mode #new:hover {
+    background-color: #00864f;
+}
+
+.dark-mode .login-footer {
+    color: #ddd;
+}
+
+.dark-mode .footer-links a {
+    color: #58a6ff;
+}
+

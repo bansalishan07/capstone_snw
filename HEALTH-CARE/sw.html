@@ -21,6 +21,8 @@
             <a href="member.html">Membership</a>
             <a href="CONTACT.html">Contact</a>
             <a href="login.html" class="login-btn">Login</a>
+            <button id="modeBtn">Dark Mode</button>
+
         </nav>
     </div>
 </header>
@@ -151,6 +153,29 @@
 
     <p>&copy; 2025 Healthify Healthcare, Inc. All rights reserved.</p>
 </footer>
+<script>
+var modeBtn = document.getElementById("modeBtn");
+
+modeBtn.onclick = function () {
+
+    document.body.classList.toggle("dark-mode");
+
+    if (document.body.classList.contains("dark-mode")) {
+        modeBtn.innerText = "Light Mode";
+    } else {
+        modeBtn.innerText = "Dark Mode";
+    }
+};
+
+
+
+
+
+window.onload = function () {
+    alert("Welcome to Healthify! We’re happy to have you here.");
+};
+</script>
+
 
 </body>
 </html>
